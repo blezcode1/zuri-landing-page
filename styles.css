@@ -1,0 +1,64 @@
+
+body {
+     background-color: #FADBF7 ;
+   
+}
+
+#section1{
+     width: 100%;
+     /* justify-content: space-between;  */
+      display: flex;
+     justify-content: space-around;
+     
+}
+
+.navbar a{
+  
+/* padding: 16px 17px;   */
+margin: 20px ;
+
+     
+}
+
+.vet{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;}
+
+
+#section3{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+}
+
+
+#image1{
+ width: 50px;  
+}
+
+#image2{
+     width: 50px;  
+    }
+
+    #section4{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+    }
+
+
+section4 hover {
+     background: #B9B4B8 ;
+     content: '';
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #262626;
+        transform: scale(0);
+        opacity: 0;
+        transition: .3s;
+        z-index: -1;
+}
